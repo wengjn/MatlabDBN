@@ -30,7 +30,9 @@ for k = 2:n_iter
     Pminus(k) = P(k-1) + Q;
     %measument update
     K(k) = Pminus(k)/(Pminus(k)+R);
-    xhat(k) = xhatminus(k) + K(k)*(z(k)-xhatminus(k));
+    xhat(k) = xhatminus(k) + ...
+        K(k)*(z(k)-...
+        xhatminus(k));
     P(k) = (1-K(k))*Pminus(k);
 end
 figure();
@@ -38,3 +40,4 @@ plot(z, 'k+');
 hold on;
 plot(xhat, 'b-');
 hold on;
+plot([0:0.1:50],x,'g-');
