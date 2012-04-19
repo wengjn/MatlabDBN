@@ -6,9 +6,9 @@ function [slope] = EulerMethod(x)
 %global c1 c2 L k1 k2 k3 source
 c1 = 2;  %capacitor C1
 c2 = 2;  %capacitor C2
-L = 1; %inductor I
+L = 3; %inductor I
 k1 = 3;   %for resistor R1 = 1 + k1*f2, R1(0) = 1
-k2 = 0.5;  %for resistor R2 = 1 + k2*f6, R2(0) = 1
+k2 = 3;  %for resistor R2 = 1 + k2*f6, R2(0) = 1
 k3 = 3;  %for resistor R3 = 1 + k3*f11, R3(0) = 1
 source = 5;  %voltage source
 

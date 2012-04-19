@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/28/trunk/html/mfiles
+END
+cellfuncell.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/html/mfiles/cellfuncell.m
+END
+process_options.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/html/mfiles/process_options.m
+END
+mysetdiff.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/trunk/html/mfiles/mysetdiff.m
+END
+processArgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/10/trunk/html/mfiles/processArgs.m
+END
+yprime.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/html/mfiles/yprime.c
+END
+subv2ind.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/5/trunk/html/mfiles/subv2ind.m
+END
+viewClassTreeBiograph.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/html/mfiles/viewClassTreeBiograph.m
+END
+ind2subv.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/5/trunk/html/mfiles/ind2subv.m
+END
+approxeq.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/28/trunk/html/mfiles/approxeq.m
+END
+compileAndRun.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/5/trunk/html/mfiles/compileAndRun.m
+END
+myfunc.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/html/mfiles/myfunc.m
+END
+binaryTree.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/5/trunk/html/mfiles/binaryTree.m
+END
+rosenbrock.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/5/trunk/html/mfiles/rosenbrock.m
+END
+LassoShootingFast.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/html/mfiles/LassoShootingFast.m
+END
+prepareArgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/10/trunk/html/mfiles/prepareArgs.m
+END
+setupMnist.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/19/trunk/html/mfiles/setupMnist.m
+END
+quadform.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/5/trunk/html/mfiles/quadform.m
+END
+compileRunAndSave.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/html/mfiles/compileRunAndSave.m
+END
+viewClassTree.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/5/trunk/html/mfiles/viewClassTree.m
+END
+genpathPMTK.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/html/mfiles/genpathPMTK.m
+END
+mydate.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/html/mfiles/mydate.m
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/autoDiff
+END
+autoHv.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/autoDiff/autoHv.m
+END
+autoGrad.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/autoDiff/autoGrad.m
+END
+autoHess.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/autoDiff/autoHess.m
+END
+autoTensor.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/autoDiff/autoTensor.m
+END

@@ -1,6 +1,8 @@
 %This program is to implement particle filter with 3-state
 %since it is a 3-state, you can not just use the one with example
-%seems I got something wrong here
+%rightLC.mdl simulate such system in simulink
+%you have to use variable-step size ode45 to solve such system,
+%otherwise, you can not see that is is oscilating, too small
 
 %clean the system first
 clc
@@ -21,10 +23,10 @@ end
 %--------------------Prepare some variables------------------------------
 
 Q = diag([0 0 1.0e-6]); %System process noise covariance1.0e-6
-R = 10; %measurement noise covariance
+R = 2; %measurement noise covariance
 P = diag([0 0 0]); %initial estimation error covariance
 
-x = [0; 0; 0]; %initial state, x(1)=e3, x(2)=e8, x(3)=f10
+x = [0; 0; 0]; %initial state, x(1)=e4, x(2)=e8, x(3)=f10
 xhat = [0.5; 0; .2]; %initial state estimate
 
 N = 200; %number of particles
@@ -34,19 +36,21 @@ for i = 1:N
     xhatplus(:, i) = x + sqrt(P) * [randn; randn; randn]; %standard particle filter
 end
 
-h = 0.5; %measurement timestep
+h = 0.15; %measurement timestep
 %randn('state', sum(100*clock)); %random number generator seed
 
-tf = 50; %simulation length 
+tf = 500; %simulation length 
 dt = 0.5; %timestep for integration
-xArray = x;   
+xArray = x;  %with noise state
+xtArray = x; %without noise, true state
 xhatArray = xhat; 
 
 for t = 0:h:tf
     %simulate the continuous system, with noise Q
     %fourth order Runge Kutta integration
-    [slope] = EulerMethod(x)
+    [slope] = EulerMethod(x);
     x = x + h*slope;
+    xt = x;
     x = x + sqrt(dt * Q) * [randn; randn; randn] * dt; %make Q=0 at first
     
     %simulate the noise measurement
@@ -93,6 +97,7 @@ for t = 0:h:tf
     xhat = mean(xhatplus')';
     %save data for plotting
     xArray = [xArray x];
+    xtArray = [xtArray xt];
     xhatArray = [xhatArray xhat];
 end
 
@@ -100,30 +105,41 @@ end
 %draw the figures
 close all
 
+t = 0:h:tf;
+
 figure;
-plot(xArray(1,:),'b*');figure(gcf)
+plot(t, xArray(1,1:length(t)),'b-');figure(gcf)
 hold all 
-plot(xhatArray(1,:),'k-','DisplayName','xhatArray(1,1:102)','YDataSource','xhatArray(1,1:102)');figure(gcf)
+plot(t, xhatArray(1,1:length(t)),'k-');figure(gcf)
+hold all
+plot(t, xtArray(1,1:length(t)),'r-');
+axis normal
 xlabel('timestep');
 ylabel('state e4');
-legend('True state', 'Particle filter estimate');
+legend('True state with noise', 'Particle filter estimate', 'without noise');
 
 
 figure;
-plot(xArray(2,:),'b*');figure(gcf)
+plot(t, xArray(2,1:length(t)),'b-');figure(gcf)
 hold all 
-plot(xhatArray(2,:),'k-','DisplayName','xhatArray(1,1:102)','YDataSource','xhatArray(1,1:102)');figure(gcf)
+plot(t, xhatArray(2,1:length(t)),'k-');figure(gcf)
+hold all
+plot(t, xtArray(2,1:length(t)),'r-');
+axis normal
 xlabel('timestep');
 ylabel('state e8');
-legend('True state', 'Particle filter estimate');
+legend('True state with noise', 'Particle filter estimate', 'without noise');
 
 figure;
-plot(xArray(3,:),'b*');figure(gcf)
+plot(t, xArray(3,1:length(t)),'b-');figure(gcf)
 hold all 
-plot(xhatArray(3,:),'k-','DisplayName','xhatArray(1,1:102)','YDataSource','xhatArray(1,1:102)');figure(gcf)
+plot(t, xhatArray(3,1:length(t)),'k-');figure(gcf)
+hold all
+plot(t, xtArray(3,1:length(t)),'r-');
+axis normal
 xlabel('timestep');
 ylabel('state f10');
-legend('True state', 'Particle filter estimate');
+legend('True state with noise', 'Particle filter estimate','without noise');
 
 
 

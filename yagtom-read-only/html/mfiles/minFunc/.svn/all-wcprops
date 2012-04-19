@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc
+END
+lbfgsC.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.c
+END
+minFunc_processInputOptions.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/minFunc_processInputOptions.m
+END
+lbfgsHvFunc2.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsHvFunc2.m
+END
+mcholC.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.c
+END
+taylorModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/taylorModel.m
+END
+mcholinc.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholinc.m
+END
+dampedUpdate.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/dampedUpdate.m
+END
+lbfgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgs.m
+END
+mcholC.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.mexw32
+END
+lbfgsC.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexw64
+END
+minFunc.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/minFunc.m
+END
+lbfgsUpdate.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsUpdate.m
+END
+lbfgsC.mexmaci64
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexmaci64
+END
+polyinterp.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/polyinterp.m
+END
+mcholC.mexmaci64
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.mexmaci64
+END
+example_minFunc.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/example_minFunc.m
+END
+mcholC.mexglx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.mexglx
+END
+mcholC.mexmac
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.mexmac
+END
+ArmijoBacktrack.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/ArmijoBacktrack.m
+END
+conjGrad.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/conjGrad.m
+END
+lbfgsC.mexw32
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexw32
+END
+callOutput.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/callOutput.m
+END
+minFunc_examples.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/minFunc_examples.m
+END
+precondTriu.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/precondTriu.m
+END
+mchol.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mchol.m
+END
+mcholC.mexw64
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/mcholC.mexw64
+END
+example_minFunc_LR.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/example_minFunc_LR.m
+END
+lbfgsC.mexa64
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexa64
+END
+lbfgsC.mexglx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexglx
+END
+WolfeLineSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/WolfeLineSearch.m
+END
+lbfgsC.mexmac
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/lbfgsC.mexmac
+END
+precondDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/precondDiag.m
+END
+isLegal.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/isLegal.m
+END
+precondTriuDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/html/mfiles/minFunc/precondTriuDiag.m
+END

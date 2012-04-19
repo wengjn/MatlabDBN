@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/30/trunk/util
+END
+filterCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/5/trunk/util/filterCell.m
+END
+endswith.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/5/trunk/util/endswith.m
+END
+cellfuncell.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/5/trunk/util/cellfuncell.m
+END
+mnistAll.mat
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/30/trunk/util/mnistAll.mat
+END
+filelist.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/5/trunk/util/filelist.m
+END
+sortidx.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/5/trunk/util/sortidx.m
+END
+SetDefaultValue.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/5/trunk/util/SetDefaultValue.m
+END
+genpathY.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/5/trunk/util/genpathY.m
+END
+cls.m
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/5/trunk/util/cls.m
+END

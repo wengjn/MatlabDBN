@@ -7,7 +7,7 @@ close all
 x = 0.1; %initial state
 Q = 10; %system noise covariance
 R = 1; %measurement noise covariance
-tf = 50; %simulation length
+tf = 100; %simulation length
 N = 500; %number of particles in the particle filter
 xhat = x;
 P = 2;
@@ -58,7 +58,7 @@ for k = 1:tf
 end
 t = 0:tf;
 figure;
-plot(t,xArr,'b*', t, xhatPartArr, 'k-');
+plot(t,xArr,'b-', t, xhatPartArr, 'k-');
 %plot(t, xArr); 
 %hold all
 %plot(t, xhatPartArr);
