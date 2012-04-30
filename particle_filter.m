@@ -99,8 +99,8 @@ Neff1 = 1/sum(wk(1,:).^2);
 %remove this condition and sample on each iteration:
 % [xk, wk] = resample(xk, wk, resampling_strategy);
 %if you want to implement the bootstrap particle fileter
-resample_percentaje = 0.50;
-Nt = resample_percentaje*Ns;
+resample_percent = 0.50;
+Nt = resample_percent*Ns;
 if Neff1 < Nt
     disp('Resampling1...')
     [xk, wk] = resample(xk, wk);
@@ -133,25 +133,6 @@ return;
 
 %REsampling function
 function [xk, wk] = resample(xk, wk)
-
-% Ns = length(wk);  %Ns = number of particles
-% %wk = wk./sum(wk); %normalize weight vector, already done
-% switch resampleing_strategy
-%     case 'multinomial_resampling'
-%         with_replacement = true;
-%         idx = randsample(1:Ns, Ns, with_replacement, wk);
-%     case 'systematic_resampling'
-%         edges = min([0 cumsum(wk)], 1); %protect against accumulated roundoff
-%         edges(end) = 1; %get the upper edge exact
-%         u1 = rand/Ns;
-%         [~, idx] = histc(u1:1/Ns:1, edges);
-%     otherwise
-%         error('Resampling strategy not implemented')
-% end
-% 
-% xk = xk(:,idx);             %extract new particles
-% wk = repmat(1/Ns, 1, Ns);   %now all particles have the same weight
-
 Ns = length(wk);
 c(1) = 0; %initialize cdf
 for i = 2:Ns

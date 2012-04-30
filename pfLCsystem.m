@@ -5,9 +5,9 @@
 %Date: April 15, 2012
 %
 
-clear all;
-close all;
-clc;
+clear all
+close all
+clc
 
 %process equation
 nx = 3;                         %number of states, voltage on c1, c2 and current through L
